@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const links = [
   { name: "Smart Cart Analyzer", to: "/services/smart-cart" },
-  { name: "Recipe Generator", to: "/services/recipe-generator" },
-  { name: "Missing Ingredients", to: "/services/ingredient-suggestion" },
+  { name: "Recipe Generator", to: "/services/recipe-gen" },
+  { name: "Missing Ingredients", to: "/services/missing-ingredients" },
   { name: "Budget Buddy", to: "/services/budget-buddy" },
-  { name: "Nutrition Insight", to: "/services/nutrition-insight" },
+  { name: "Nutrition Insight", to: "/services/nutrition" },
   { name: "Dietary Modes", to: "/services/dietary-modes" },
-  { name: "Meal Planning Assistant", to: "/services/meal-planner" },
+  { name: "Meal Planning Assistant", to: "/services/meal-plan" },
 ];
 
 export default function Sidebar() {
