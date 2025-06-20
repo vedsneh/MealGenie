@@ -15,7 +15,7 @@ const Home = () => {
     {
       title: "Missing Ingredients",
       description: "Suggest what's missing for a complete recipe",
-      link: "/services/ingredient-suggestion",
+      link: "/services/missing-ingredients",
     },
     {
       title: "Nutrition Insight",
