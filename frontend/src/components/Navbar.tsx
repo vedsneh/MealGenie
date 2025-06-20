@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const scrollToSection = (id: string) => {
     const section = document.getElementById(id);
@@ -13,9 +15,9 @@ const Navbar = () => {
           MealGenie <span className="ml-2 text-xl">🍽️</span>
         </div>
         <div className="space-x-6 font-semibold text-gray-800">
-          <button onClick={() => scrollToSection("about")}>About</button>
-          <button onClick={() => scrollToSection("services")}>Services</button>
-          <button onClick={() => scrollToSection("contact")}>Contact</button>
+          <Link to="/about">About</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
     </nav>
